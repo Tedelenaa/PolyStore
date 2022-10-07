@@ -1,0 +1,140 @@
+@use "./colors" as *;
+
+// headings
+@mixin h1 {
+    font: {
+        size: 3.5em;
+        family: Roboto, Helvetica, sans-serif;
+        weight: 700;
+    }
+
+    // line-height: 6.28em;
+}
+
+
+@mixin h2 {
+    font: {
+        size: 3em;
+        family: Roboto, Helvetica, sans-serif;
+        weight: 700;
+    }
+
+    // line-height: 4.75em;
+}
+
+
+@mixin h3 {
+    font: {
+        size: 2.5em;
+        family: Roboto, Helvetica, sans-serif;
+        weight: 700;
+    }
+
+    // line-height: 72px;
+}
+
+
+@mixin h5 {
+    font: {
+        size: 1.5em;
+        family: Roboto, Helvetica, sans-serif;
+        weight: 700;
+    }
+
+    // line-height: 1.5rem;
+    letter-spacing: 0.05em;
+}
+
+
+
+// paragraph
+
+@mixin p {
+    font: {
+        size: 1em;
+        family: Roboto, Helvetica, sans-serif;
+        weight: 300;
+    }
+
+    // line-height: 1.5rem;
+    letter-spacing: 0.02em;
+}
+
+
+
+// special text
+
+@mixin infoText {
+    font: {
+        style: italic;
+        weight: 100;
+        size: 0.7em;
+        family: Roboto, Helvetica, sans-serif;
+    }
+
+    // line-height: 1.5rem;
+    letter-spacing: 0.02em;
+}
+
+
+// links
+// unvisited
+@mixin link {
+    font: {
+        weight: 100;
+        size: 1em;
+        family: Roboto, Helvetica, sans-serif;
+    }
+
+    color: $grey80;
+}
+
+
+
+
+
+
+// page font style
+
+.h1 {
+    @include h1;
+
+}
+
+.h2 {
+    @include h2;
+
+}
+
+.h3 {
+    @include h3;
+
+}
+
+.h5 {
+    @include h5;
+
+}
+
+.infoText {
+    @include infoText;
+
+}
+
+.link {
+    @include link;
+
+}
+
+.link:hover {
+    // background-color: green;
+
+}
+
+
+// onhover
+// link:hover{
+
+// }
+// active
+// visited

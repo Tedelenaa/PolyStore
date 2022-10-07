@@ -1,0 +1,27 @@
+@use '../colors' as *;
+
+.polyStyle {
+    color: $pryColor100 !important;
+}
+
+.storeStyle {
+    color: $secColor100 !important;
+}
+
+.heroImg {
+    max-width: 80%;
+}
+
+.iconColor{
+    color: $secColor50;
+}
+
+.servicesTextColor{
+    color: $secColor70;
+}
+
+.serviceCard{
+    border-radius: 20px 0px;
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.2);
+} 
+

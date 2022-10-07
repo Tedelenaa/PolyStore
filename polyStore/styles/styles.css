@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.h1 {
+  font-size: 3.5em;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.h2 {
+  font-size: 3em;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.h3 {
+  font-size: 2.5em;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.h5 {
+  font-size: 1.5em;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.infoText {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 0.7em;
+  font-family: Roboto, Helvetica, sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.link {
+  font-weight: 100;
+  font-size: 1em;
+  font-family: Roboto, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.polyStyle {
+  color: rgb(255, 0, 113) !important;
+}
+
+.storeStyle {
+  color: rgb(22, 0, 255) !important;
+}
+
+.heroImg {
+  max-width: 80%;
+}
+
+.iconColor {
+  color: rgba(22, 0, 255, 0.5);
+}
+
+.servicesTextColor {
+  color: rgba(22, 0, 255, 0.7);
+}
+
+.serviceCard {
+  border-radius: 20px 0px;
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.2);
+}
+/*# sourceMappingURL=styles.css.map */
